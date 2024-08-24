@@ -19,37 +19,10 @@ const search = computed({
 
 <template>
   
-  <h1>Hello App!</h1>
-  Search : {{search}}
-  <p>
-    <strong>Current route path:</strong> {{ $route.fullPath }}
-  </p>
-  <nav>
-    <RouterLink class="bg-blue-500 m-3" to="/">Go to Home</RouterLink>
-    <RouterLink class="bg-blue-500 m-3" to="/about">Go to About</RouterLink>
-    <RouterLink class="bg-blue-500 m-3" to="/usuarios">Go to Usuarios</RouterLink>
-  </nav>
+  <h1>Bienvenido a Aplicacion task todo!</h1>
   <main>
     <RouterView />
   </main>
-  
-  <!-- <h1 class="bg-gray-700">
-    Color gris
-  </h1>
-  <layout1 msg='Mi mensaje' class="bg-red-500">
-    <template v-slot:footer>
-      <h1>
-        Soy el header
-      </h1>
-    </template>
-
-    <template >
-      <h1>
-        Soy el footer
-      </h1>
-    </template>
-  </layout1> -->
-  
   
 </template>
 
