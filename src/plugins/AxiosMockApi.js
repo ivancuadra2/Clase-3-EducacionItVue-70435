@@ -6,5 +6,8 @@ export const instance = axios.create({
     headers: {'X-Custom-Header': 'foobar'}
   });
 
-export const instancia2 = axios.create()
+export const instancia2 = axios.create({
+  baseURL: 'https://api.escuelajs.co/api/v1/',
+  timeout: 2000
+})
 

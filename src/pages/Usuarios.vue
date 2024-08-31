@@ -42,10 +42,9 @@ const dialog = ref(false)
 const usuarioSeleccionado = ref(null)
 const path = "/productos";
 const body = {
-"name": "Ivan",
-"avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/424.jpg",
-"task": "Dar clase 2"
-}
+    "name": "Ivan",
+    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/424.jpg",
+    "task": "Dar clase 2"}
 
 const handleBotonSeleccionarUsuario = (usuario) => {
     console.log('Usuario', usuario)
